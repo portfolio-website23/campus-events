@@ -80,6 +80,46 @@ section h2 {
     margin-bottom: 5px;
 }
 
+/* Team page enhancements */
+
+.team-section {
+    border-left: 4px solid #004080;
+    padding-left: 16px;
+}
+
+.team-section p {
+    margin-bottom: 15px;
+}
+
+.team-section ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #004080;
+}
+
+.team-section li {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.team-members .member p:nth-of-type(2) {
+    font-size: 0.95rem;
+    color: #1f3b63;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .team-section {
+        padding-left: 12px;
+    }
+
+    .team-members {
+        gap: 15px;
+    }
+}
+
+
+
 /* Footer */
 footer {
     text-align: center;
