@@ -263,6 +263,11 @@ body {
 /* small utility */
 .contact-card h3,
 .info-card h3 {
+  margin-bottom: 12px;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
 .about-team h2 {
   text-align: center;
   color: var(--primary);
@@ -300,6 +305,13 @@ body {
   color: var(--muted);
   font-size: 0.95rem;
   margin-bottom: 10px;
+}
+
+.button-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
 }
 
 /* ======= Lists (Team Focus / Values) ======= */
