@@ -7,5 +7,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "This repository contains a static Campus Event Management website built with Parcel and served with Nginx in Docker."
 }
