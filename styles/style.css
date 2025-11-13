@@ -75,6 +75,94 @@ body {
   color: var(--accent);
 }
 
+/* ====== Home Page Styles ====== */
+.hero {
+  background: linear-gradient(120deg, rgba(11, 114, 185, 0.1), rgba(255, 183, 3, 0.1));
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.hero p {
+  margin: 15px auto;
+  max-width: 700px;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #084c7e;
+}
+
+/* ======= Sections ======= */
+.section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 25px;
+}
+
+.categories,
+.upcoming {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ======= Cards & Grid ======= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--light);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.highlight .date {
+  display: inline-block;
+  background: var(--accent);
+  color: #111;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
 /* ====== Gallery Page Styles ====== */
 .gallery-intro {
   text-align: center;
